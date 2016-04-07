@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 14px/16px 'Myriad Pro', Arial, Sans-serif; }
+
+/* general set */
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+/*/general set */
+.categories__link:before, .top__li:before, .flexslider2__link:before {
+  content: "||";
+  position: absolute;
+  display: block; }
+
+.posts__holder,
+.categories__holder,
+.newsletter__holder, .header__menu, .footer__holder {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 2px #e0e0e0;
+  -moz-box-shadow: 0 0 5px 2px #e0e0e0;
+  box-shadow: 0 0 5px 2px #e0e0e0; }
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.wrapper {
+  background: url(../images/header.png) no-repeat;
+  position: relative; }
+  .wrapper:after {
+    position: absolute;
+    content: "";
+    background: url(../images/footer.png) no-repeat;
+    bottom: 0;
+    left: 0;
+    width: 1440px;
+    height: 89px;
+    display: block; }
+
+.holder {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 77px; }
+
+.header__logo {
+  width: 23%;
+  float: left; }
+.header__link {
+  color: #302e2e;
+  font-size: 42px;
+  margin-left: 24px; }
+.header__title {
+  color: #302e2e;
+  margin-left: 75px;
+  font-size: 14px;
+  font-weight: normal; }
+
+.header__menu {
+  float: right;
+  width: 61.1%;
+  margin-top: 23px; }
+
+.menu__list {
+  float: left;
+  padding: 20px 3px 21px 18px; }
+.menu__link {
+  color: #454444; }
+  .menu__link:hover, .menu__link_active {
+    color: #d42907; }
+
+.main {
+  width: 73.1%;
+  float: left; }
+
+.aside {
+  width: 22.8%;
+  float: right; }
+  .aside__search {
+    position: relative; }
+
+.search__form {
+  width: 100%;
+  padding: 10px 0 8px 25px;
+  color: #302e2e;
+  border: 1px solid #c5c5c5;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+.search__btn {
+  background: none;
+  border: none;
+  position: absolute;
+  display: table;
+  top: 7px;
+  right: 4.82456%; }
+
+.posts__title,
+.categories__title,
+.newsletter__title {
+  -webkit-box-shadow: 0 0 5px 2px #e0e0e0;
+  -moz-box-shadow: 0 0 5px 2px #e0e0e0;
+  box-shadow: 0 0 5px 2px #e0e0e0;
+  margin: 38px 0 8px 0;
+  background-color: #f53f1a;
+  padding: 13px 0 16px 16px;
+  font-size: 22px;
+  color: #fff; }
+
+.posts__img {
+  border: 1px solid #d6d3d3;
+  float: left; }
+.posts__p, .posts__h3 {
+  font-size: 13px;
+  color: #5a5757;
+  float: right;
+  width: 73.78641%; }
+.posts__h3 {
+  font-size: 14px; }
+.posts__piano, .posts__flower, .categories__link {
+  border-bottom: 1px dashed #8e8c8c;
+  padding: 16px 0 18px 1px; }
+.posts__forest {
+  padding: 16px 0 18px 1px; }
+
+.categories__link {
+  position: relative;
+  padding-left: 35px; }
+  .categories__link:last-child {
+    border-bottom: none; }
+  .categories__link:before {
+    top: 15px;
+    left: 22px;
+    color: #5a5757; }
+
+.categories__l {
+  color: #5a5757; }
+
+.posts__wrapper,
+.categories__wrapper {
+  margin: 0 8px; }
+
+.newsletter__form {
+  margin: 25px 15px 14px 13px; }
+.newsletter__email {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 12px 0 10px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #c5c5c5;
+  margin-bottom: 12px; }
+.newsletter__btn {
+  float: right;
+  right: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #c5c5c5;
+  color: #980000;
+  padding: 7px 15px 7px 13px;
+  background: linear-gradient(to bottom, #ededed, #cecece); }
+
+.top__list {
+  width: 22%;
+  float: left; }
+  .top__list:last-child {
+    width: 12%;
+    float: right; }
+.top__link {
+  color: #5a5757; }
+.top__li {
+  position: relative;
+  padding-left: 10px; }
+  .top__li:before {
+    top: 0;
+    left: 0;
+    color: #5a5757; }
+
+.top__title{
+  padding-bottom: 14px;
+}
+
+.footer__holder {
+  padding: 21px;
+  padding-bottom: 65px; }
+
+.container {
+  padding-top: 35px; }
+
+.section {
+  display: block; }
+
+.slides2__box-pad-btm {
+  padding-bottom: 70px; }
+
+.flexslider2__link:before {
+  top: -2px;
+  left: 0;
+  color: #076ca6; }
+.flexslider2__paragraph {
+  padding-bottom: 28px; }
+.flexslider2__title {
+  padding: 18px 0 15px; }
+.flexslider2__link {
+  position: relative;
+  margin-left: 210px;
+  padding-left: 10px;
+  color: #076ca6; }
+
+/*# sourceMappingURL=css.css.map */
