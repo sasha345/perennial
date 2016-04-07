@@ -37,9 +37,21 @@ li {
   display: table;
   clear: both; }
 
+
+
 .wrapper {
   background: url(../images/header.png) no-repeat;
-  position: relative; }
+  position: relative;  }
+  .wrapper__container{
+    background: url(../images/footer.png) no-repeat;
+    bottom: 0;
+    left: 0;
+    display: block; }
+
+/*
+.wrapper {
+  background: url(../images/header.png) no-repeat;
+  position: relative;  }
   .wrapper:after {
     position: absolute;
     content: "";
@@ -48,7 +60,7 @@ li {
     left: 0;
     width: 1440px;
     height: 89px;
-    display: block; }
+    display: block; }*/
 
 .holder {
   width: 1000px;
@@ -222,5 +234,17 @@ li {
   padding: 21px;
   padding-bottom: 65px;
   margin-bottom: 10px; }
+
+.footer__bottom{
+  position:relative;
+}
+
+.footer__bottom:before{
+  content: '&copy;  2011 All rights resrved PSD Style';
+  display: block;
+  right:0;
+  top:0;
+  position:absolute;
+}
 
 /*# sourceMappingURL=css.css.map */
