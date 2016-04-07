@@ -199,7 +199,8 @@ li {
 
 .footer__holder {
   padding: 21px;
-  padding-bottom: 65px; }
+  padding-bottom: 65px;
+  margin-bottom: 10px;}
 
 .container {
   padding-top: 35px; }
