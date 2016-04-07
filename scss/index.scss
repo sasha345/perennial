@@ -1,5 +1,3 @@
-@import 'footer';
-
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -277,3 +275,6 @@ $header-color:#302e2e;
     color:#076ca6;
   }
 }
+
+@import 'footer';
+
