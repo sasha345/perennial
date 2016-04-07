@@ -67,6 +67,8 @@ li {
   margin-left: 75px;
   font-size: 14px;
   font-weight: normal; }
+.header__img{
+  padding-bottom: 8px;  }
 
 .header__menu {
   float: right;
