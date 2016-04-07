@@ -1,3 +1,5 @@
+@import 'footer';
+
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -242,40 +244,6 @@ $header-color:#302e2e;
     background: linear-gradient(to bottom, #ededed, #cecece);
   }
 }
-
-.top {
-  &__list {
-    width: 22%;
-    float: left;
-  &:last-child {
-    width: 12%;
-    float: right;
-    }
-  }
-  &__link{
-    color:#5a5757;
-  }
-  &__li{
-    position:relative;
-    padding-left: 10px;
-  &:before{
-    @extend %vertical-stroke;
-    top:0;
-    left:0;
-    color:#5a5757;
-    }
-  }
-  &__title{
-    padding-bottom: 14px;
-  }
-}
-
-  .footer__holder{
-    padding:21px;
-    padding-bottom: 65px;
-    margin-bottom: 10px;
-    @extend %border-grey;
-  }
 
   .container{
     padding-top: 35px;
