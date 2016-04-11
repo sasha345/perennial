@@ -40,27 +40,16 @@ li {
 
 
 .wrapper {
-  background: url(../images/header.png) no-repeat;
-  position: relative;  }
-  .wrapper__container{
-    background: url(../images/footer.png) no-repeat;
-    bottom: 0;
-    left: 0;
-    display: block; }
+  background:url(../images/header.png) repeat-x;
+}
 
-/*
-.wrapper {
-  background: url(../images/header.png) no-repeat;
-  position: relative;  }
-  .wrapper:after {
-    position: absolute;
-    content: "";
-    background: url(../images/footer.png) no-repeat;
-    bottom: 0;
-    left: 0;
-    width: 1440px;
-    height: 89px;
-    display: block; }*/
+.footer__bottom{
+  background:url(../images/footer.png) repeat-x;
+  width: 1440px;
+  height: 89px;
+  margin-top: -75px;
+  padding:70px 259px 0;
+}
 
 .holder {
   width: 1000px;
@@ -234,17 +223,5 @@ li {
   padding: 21px;
   padding-bottom: 65px;
   margin-bottom: 10px; }
-
-.footer__bottom{
-  position:relative;
-}
-
-.footer__bottom:before{
-  content: '&copy;  2011 All rights resrved PSD Style';
-  display: block;
-  right:0;
-  top:0;
-  position:absolute;
-}
 
 /*# sourceMappingURL=css.css.map */
